@@ -30,3 +30,13 @@ header {
     width: 150px;
     height: 150px;
 }
+
+.cor-title{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
+.reg-no span{
+    color: rgb(153,33,33);
+}
+
