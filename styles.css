@@ -30,7 +30,6 @@ header {
     width: 150px;
     height: 150px;
 }
-
 .cor-title{
     display: flex;
     justify-content: center;
@@ -39,4 +38,16 @@ header {
 .reg-no span{
     color: rgb(153,33,33);
 }
+.certificate-box{
+    border: 1px solid black;
 
+}
+.top-box{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color:rgb(203,204,245);
+    padding: 5px;
+    margin: 0;
+    
+}
