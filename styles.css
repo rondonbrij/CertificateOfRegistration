@@ -137,14 +137,53 @@ td {
     align-items: center;
     padding: 5px;
     border: 1px solid black;
-
 }
+/* .assessed-total-combined{
+    padding: 10px;
+} */
 .assessed-fees-combined{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
     margin-top: -10px;
 }
 .assessed-fees-right{
     text-align: right;
+}
+.assessed-fees-left{
+    text-align: left;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.total-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+.total-mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+
+}
+.total-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.total p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
