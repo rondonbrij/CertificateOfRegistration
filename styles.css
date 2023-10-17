@@ -43,8 +43,7 @@ header {
 
 }
 .top-box{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     border-bottom: 1px solid rgb(0, 0, 0);
     background-color:rgb(203,204,245);
     padding: 5px;
@@ -56,4 +55,96 @@ header {
     justify-content: space-between;
     margin: 10px;
     margin-top: -10px;
+}
+
+.mid-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    border-right: none;
+    background-color:rgb(203,204,245);
+    padding: 5px;
+    margin: 0;
+    
+}
+
+.unit-group h2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.unit-group h2{
+    display: flex;
+}
+
+.sub-unit-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sub-unit-group h3{
+    margin-left: 10px;
+    margin-top: none;
+}
+
+table {
+    width: 100%;
+    padding: -10px;
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: rgb(203,204,245);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* border: 1px solid black; */
+
+}
+
+td {
+    /* margin: 10px; */
+    text-align: left;
+    /* border: 1px solid black; */
+}
+
+.mid-table{
+    width: 100%;
+}
+.top-cell td{
+    padding-top: 10px;
+
+}
+.one-cell td{
+    padding-top: none;
+}
+
+/* .note{
+    margin-left: 10px;
+}
+
+.assessed-fees-box{
+    border: 1px solid black;
+} */
+.assessed-fees-box h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid black;
+
+}
+.assessed-fees-combined{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: -10px;
+}
+.assessed-fees-right{
+    text-align: right;
 }
