@@ -124,19 +124,22 @@ td {
     padding-top: none;
 }
 
-/* .note{
+.note{
     margin-left: 10px;
 }
 
 .assessed-fees-box{
+    width: 50%;
     border: 1px solid black;
-} */
+    margin:20px;
+    padding: 0;
+}
 .assessed-fees-box h4{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0;
 }
 /* .assessed-total-combined{
     padding: 10px;
@@ -144,7 +147,13 @@ td {
 .assessed-fees-combined{
     display: flex;
     justify-content: space-between;
-    margin-top: -10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.assessed-fees-combined p{
+    margin: 0;
 }
 .assessed-fees-right{
     text-align: right;
@@ -160,13 +169,25 @@ td {
     margin: 0;
     padding: 0;
 }
+.total p{
+    text-align: right;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
 .total-top{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
     border-top: 1px solid black;
     margin: 0;
     padding: 0;
+}
+.total-top-left{
+    width: 50%;
+}.total-top-right{
+    width: 50%;
+    margin-right: 20px;
 }
 .total-mid{
     display: flex;
@@ -181,9 +202,63 @@ td {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 }
-.total p{
-    font-weight: bold;
+
+
+.schedule-of-payment{
+    background-color: aqua;
+}
+.schedule-of-payment h4{
+    background-color:rgb(203,204,245);
     margin: 0;
-    padding: 0;
 }
+.schedule-of-payment-combination{
+    display: flex;
+    /* border: 1px solid black; */
+
+}
+.schedule-of-payment-combination p{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.schedule-of-payment-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 33%;
+}
+
+.schedule-of-payment-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 33%;
+}
+.schedule-of-payment-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 33%;
+}
+.assessed-rules-combined{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.rules-of-refund{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
