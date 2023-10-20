@@ -1,9 +1,13 @@
+/* html, body {
+    width: 1800px; 
+    max-width: 100%; } */
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
+
 }
 
 .container {
@@ -15,6 +19,7 @@ body {
     background-color: white;
     padding: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 header {
@@ -92,8 +97,8 @@ header {
 }
 
 table {
-    width: 100%;
-    padding: -10px;
+    width: 100% ;
+    padding: 10px;
     /* border: 1px solid black; */
     border-collapse: collapse;
 }
@@ -183,10 +188,10 @@ td {
     margin: 0;
     padding: 0;
 }
-.total-top-left{
-    width: 50%;
-}.total-top-right{
-    width: 50%;
+.total-left{
+    width: 60%;
+}.total-right{
+    width: 40%;
     margin-right: 20px;
 }
 .total-mid{
@@ -222,33 +227,32 @@ td {
     width: 100%;
     margin-top: 0;
     margin-bottom: 0;
+    text-align: center;
 
 }
 .schedule-of-payment-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
     border-left: 1px solid black;
-    border-right: 1px solid black;
     width: 33%;
 }
 
 .schedule-of-payment-mid {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     width: 33%;
 }
 .schedule-of-payment-left {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-left: 1px solid black;
     border-right: 1px solid black;
     width: 33%;
 }
+.schedule-of-payment-top{
+    border-bottom: 1px solid black;
+    
+}
+
 .assessed-rules-combined{
     display: flex;
     flex-direction: row;
@@ -261,4 +265,46 @@ td {
     flex-direction: column;
     align-items: center;
 }
-    
+
+.last-section{
+    margin-left: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.last-section p{
+    font-weight: bold;
+}
+.approve{
+    margin: 20px;
+    padding-left: 20px;
+}
+.signature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.signature-name{
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-bottom: 2px solid black;
+    margin-bottom: 0;
+} .signature-title{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    border: 1px solid black;
+    border-top: 0;
+    margin: 1px;
+}
+.footer h4{
+    margin: 0;
+    text-align: center;
+    background-color:rgb(203,204,245);
+
+}
