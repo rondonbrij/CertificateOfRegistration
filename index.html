@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <link rel="stylesheet" href="styles.css">
     <title>Certificate of Registration</title>
 </head>
@@ -30,7 +30,7 @@
             <div class="certificate-box">
                 <h2 class="top-box">STUDENT GENERAL INFORMATION</h2>
 
-                <section class="section-one">
+                <div class="section-one">
 
                     <div class="top-left">
                         <p><b>Student No: 2021-8-0414</b></p>
@@ -51,22 +51,25 @@
                         <p><b>Curriculum: </b>08-BSIT-2019</p>
                         <p><b>Scholarship: </b></p>
                     </div>
-                </section>
+                </div>
 
-                <table class="mid-table">
-                    <tr align="center">
+                <table>
+                    <tr class="mid-table-title">
                         <th rowspan="2">CODE</th>
                         <th rowspan="2">SUBJECT TITLE</th>
-                        <th colspan="3">UNIT</th>
+                        <th colspan="3" class="mid-table-unit">UNIT</th>
                         <th rowspan="2">SECTION</th>
                         <th rowspan="2">SCHEDULE/ROOM</th>
                         <th rowspan="2">FACULTY SIGNATURE</th>
                     </tr>
 
-                    <tr align="center">
+                    <tr class="mid-table-unit-sub">
                         <th>Lec</th>
                         <th>Lab</th>
                         <th>Credit</th>
+                    </tr>
+                    <tr class="table-line">
+                        <td>&nbsp;</td>
                     </tr>
 
                     <tr class="top-cell">
@@ -87,6 +90,7 @@
                         <td></td>
                         <td></td>
                         <td>Th 07:00 AM - 10:00 AM/MTC 2</td>
+                        <td></td>
                     </tr>
 
                     <tr>
@@ -107,6 +111,7 @@
                         <td></td>
                         <td></td>
                         <td>Th 11:00 AM - 01:00 PM/NB 10</td>
+                        <td></td>
                     </tr>
 
                     <tr>
@@ -116,8 +121,18 @@
                         <td>1.0</td>
                         <td>3.0</td>
                         <td>BSIT 3-B3</td>
-                        <td>Th 01:00 PM - 04:00 PM/IT 101 <br> M 01:00 PM - 03:00 PM/NB 10</td>
+                        <td>Th 01:00 PM - 04:00 PM/IT 101</td>
                         <td>Buliag, Rene V.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>M 01:00 PM - 03:00 PM/NB 10</td>
+                        <td></td>
                     </tr>
 
                     <tr>
@@ -127,8 +142,18 @@
                         <td>1.0</td>
                         <td>3.0</td>
                         <td>BSIT 3-B3</td>
-                        <td>W 07:00 AM - 09:00 AM/ <br>S 07:00 AM - 10:00 AM/IT 101</td>
+                        <td>W 07:00 AM - 09:00 AM/</td>
                         <td>Dizon, Demy R.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>S 07:00 AM - 10:00 AM/IT 101</td>
+                        <td></td>
                     </tr>
 
                     <tr>
@@ -138,9 +163,18 @@
                         <td>1.0</td>
                         <td>3.0</td>
                         <td>BSIT 3-B2</td>
-                        <td>T 11:00 AM - 01:00 PM/ <br>
-                            F 10:00 AM - 01:00 PM/MTC 1</td>
+                        <td>T 11:00 AM - 01:00 PM</td>
                         <td>Dosado, Roy Cyril D.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>F 10:00 AM - 01:00 PM/MTC 1</td>
+                        <td></td>
                     </tr>
 
                     <tr>
@@ -149,6 +183,9 @@
                         <td>10.1</td>
                         <td>5.0</td>
                         <td>15.0</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
 
                 </table>
@@ -178,7 +215,7 @@
                                     <p>Misc - Registration Fee</p>
                                     <p>Computer Laboratory Fees (IT 8/L (500); IT</p>
                                     <p>Internet Fee</p>
-                                </div class="assessed-fees-left">
+                                </div>
 
                                 <div class="assessed-fees-right">
                                     <p>3,000.00</p>
@@ -197,7 +234,7 @@
                                     <p>100.00</p>
                                     <p>2,500.00</p>
                                     <p>400.00</p>
-                                </div class="assessed-fees-right">
+                                </div>
                             </div>
                             <div class="total">
                                 <div class="total-top">
@@ -215,7 +252,7 @@
                                         <p>Total Payment :</p>
                                     </div>
                                     <div class="total-right">
-                                        <p>Php &nbsp; 0.00</p>
+                                        <p> 0.00</p>
                                     </div>
                                 </div>
                                 <div class="total-bottom">
@@ -227,6 +264,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
 
                         <div class="schedule-of-payment">
@@ -262,8 +300,16 @@
                             <li><em>No refund - after the 2nd week of classes</em></li>
                         </ol>
 
-                        <p><b>Official Receipt: </b></p>
-                        <p><b>Payment/Validation Date:</b></p>
+                        <div class="rules-of-refund-sub">
+                            <div class="rof-lane">
+                                <p><b>Official Receipt:</b></p>
+                                <p class="rof-line"> &nbsp; </p>
+                            </div>
+                            <div class="rof-lane">
+                                <p><b>Payment/Validation Date:</b></p>
+                                <p class="rof-line"> 09-Aug-2023 9:17 am </p>
+                            </div>
+                        </div>
 
 
 
@@ -277,6 +323,12 @@
                         <p class="signature-title">University Registrar</p>
                     </div>
                 </div>
+
+                <p class="date-stamp">Date Printed : August 10, 2023 2:27:46pm</p>
+
+
+
+
 
 
 

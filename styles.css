@@ -1,7 +1,6 @@
-/* html, body {
-    width: 1800px; 
-    max-width: 100%; } */
-
+/* * p{
+    font-size: small;
+} */
 body {
     margin: 0;
     padding: 0;
@@ -10,14 +9,22 @@ body {
 
 }
 
-.container {
+.container {   
     width: 80%;
     margin: 0 auto;
+    padding: 40px;
 }
 
 .certificate {
+
+    /* width: 100%;
+    height: 100%; */
+    /* width: 734.4px;
+    height: 734.4px; */
+    /* max-width: 612px;
+    max-height: 792px; */
     background-color: white;
-    padding: 40px;
+    padding: 50px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
@@ -30,10 +37,13 @@ header {
 .text-banner{
     text-align: center;
 }
+.text-banner p, h2{
+    margin: 0;
+}
 .psu-logo{
     margin-right: 50px;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 .cor-title{
     display: flex;
@@ -99,31 +109,41 @@ header {
 table {
     width: 100% ;
     padding: 10px;
-    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    /* border: 10px solid black; */
     border-collapse: collapse;
 }
 
-
 th {
     background-color: rgb(203,204,245);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     /* border: 1px solid black; */
 
 }
-
 td {
-    /* margin: 10px; */
-    text-align: left;
-    /* border: 1px solid black; */
+    text-align: center;
 }
 
-.mid-table{
-    width: 100%;
+.mid-table-title th{
+    text-align: center;
 }
-.top-cell td{
+.mid-table-unit{
+    border-bottom: 0;
+}
+.mid-table-unit-sub{
+    border-top: 0;
+} .mid-table-unit-sub th{
+    font-size: 11px;
+}
+.table-line{
+    border: 1px solid black;
+} .table-line td{
+    font-size: 2px;
+}
+
+
+.top-cell{
     padding-top: 10px;
-
 }
 .one-cell td{
     padding-top: none;
@@ -140,6 +160,7 @@ td {
     padding: 0;
 }
 .assessed-fees-box h4{
+    background-color:rgb(203,204,245);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +233,7 @@ td {
 
 
 .schedule-of-payment{
-    background-color: aqua;
+    border-top:1px solid black; 
 }
 .schedule-of-payment h4{
     background-color:rgb(203,204,245);
@@ -263,7 +284,35 @@ td {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.rules-of-refund h4{
+    margin: 0;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.rules-of-refund ol li{
+    font-family: 'Courier New', Courier, monospace;
+}
+.rules-of-refund-sub{
+    margin-top: 50px;
+    padding-left: 20px;
+}
+
+.rof-line{
+    border-bottom:2px solid black;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+
+} 
+.rof-lane{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    
 }
 
 .last-section{
@@ -271,6 +320,7 @@ td {
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding-bottom: 250px;
 }
 .last-section p{
     font-weight: bold;
@@ -296,11 +346,13 @@ td {
     margin: 0;
     padding: 0;
 }
-
+.date-stamp{
+    margin: 0;
+    text-align: end;
+}
 .footer{
     border: 1px solid black;
     border-top: 0;
-    margin: 1px;
 }
 .footer h4{
     margin: 0;
